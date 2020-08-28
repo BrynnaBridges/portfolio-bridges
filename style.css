@@ -1,0 +1,234 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Ubuntu, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}  
+
+html body{
+  height: 100%;
+  width: 100%;
+  margin: 10px, 10px;
+  padding: 10px, 10px;
+  box-sizing: border-box;
+  background-color:lightgray;
+}
+.navbar-brand{
+  margin-right:3rem;
+  margin-left:3rem;
+  margin-bottom:0.3rem;
+  padding-left:1rem;
+  padding-right:1rem;
+}
+.navbar-brand:hover{
+  background-color:#4e575f;
+  border-color: white;
+  border-style:solid;
+}
+
+/* .navbar-dropdown:hover{
+  background-color:darkgray;
+  border-color: white;
+  border-style:solid;
+} */
+
+
+/* latitude navbar home button */
+.navbar-light .navbar-brand {
+  color: white;
+  background-color:#23415c;
+  border-color: white;
+  border-style: solid;
+}
+
+/* dropdown menu */
+.navbar-light .navbar-nav .nav-link{
+  color: #23415c;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: #23415c;
+}
+.navbar{
+  background-color: #23415c;
+  border: 30px;
+}
+
+.container{
+  border: 1px solid #23415c;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.category{
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+}
+
+.middle-container{ 
+  padding: 0px;
+  margin: 0px;
+} 
+
+.page-body {
+  width: 100%;
+  background-color: white;
+  color: #23415c;
+margin-top: 40px;
+margin-bottom: 40px;
+  padding: 10px 30px 10px;
+}
+
+
+.visual-body {
+margin-top: 10px;
+margin-bottom: 10px;
+padding: 10px 30px 10px;
+color: white;
+background-color:white;
+}
+.page-title, .visual-title {
+padding-top: 15px; 
+padding-left: 4px;
+color: #23415c;
+font-size: 26px;
+font-weight: bold;
+font-family: Georgia, Times, "Times New Roman", serif;
+}
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+h1 {
+    font-size: 65px;
+    padding: 10px;
+    margin: 0;
+    color:  #23415c;
+    text-align: center;
+  }
+
+h3 {
+    font-size: 40px;
+    padding: 10px;
+    margin: 0;
+    color:  #23415c;
+    text-align: left;
+  }
+
+h2 {
+    font-size: 30px;
+    padding: 20px;
+    margin: 0;
+    color: #000;
+    text-align: center;
+  }
+
+h4 {
+    font-size: 20px;
+    padding: 20px;
+    margin: 0;
+    color: #000;
+    text-align: center;
+  }
+
+  h5 {
+    font-size: 18px;
+    padding: 20px;
+    margin: 6;
+    color: #000;
+    text-align: center;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+.responsive {
+    width: 100%;
+    height: auto;
+  }
+
+* {
+    box-sizing: border-box;
+  }
+  
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.footer-container{
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-height: 30px;
+    background: #23415c;
+  }
+ 
+.h6{
+  color: antiquewhite;
+  font-size: small;
+}  
+
+.bottom {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 5px;
+    background: #23415c;
+ }
+@media screen and (max-width: 600px) {
+  .column {
+      width: 100%;
+    }
+  }
+  .container {
+    position: relative;
+    margin-top: 30px;
+  }
+  
+.child {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    /* Center vertically and horizontally */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px; /* apply negative top and left margins to truly center the element */
+  }
+
+
+
